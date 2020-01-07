@@ -47,7 +47,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
+        title: Text('BMI Calculator'),
       ),
       body: Column(
         //第一排 男女
@@ -146,7 +146,7 @@ class _InputPageState extends State<InputPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          'Weight',
+                          'Weight(kg)',
                           style: kLabelTextStyle,
                         ),
                         Text(
